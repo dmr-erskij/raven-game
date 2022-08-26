@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>shooting birds</title>
+</head>
+<body class="before-start">
+    <canvas id="collision-canvas"></canvas>
+    <canvas id="canvas1"></canvas>
+    
+    <img src="./assets/bg2.jpg" alt="bg" id="bg-game" class="bg-game">
+    <audio id="raven-audio" src="./assets/staja-voron.mp3" loop muted></audio>
+    <audio id="end-audio" src="./assets/us_wawa.wav"></audio>
+
+    <img src="./assets/single-raven.png" alt="raven" class="single-raven">
+    <img src="./assets/aim2.png" alt="aim" class="aim">
+    <button id="start" class="btn start-btn" type="button">Начать игру 	&#128526;</button>
+    <button id="restart" class="btn restart-btn" type="button">Играть еще 	&#128526;</button>
+    
+    <script src="input.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
